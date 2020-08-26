@@ -1,5 +1,7 @@
 package com.example.demo;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,6 +16,7 @@ class SpringJenkinApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("TestCase Executing ....");
+		assertEquals(true, true);
 		
 	}
 
